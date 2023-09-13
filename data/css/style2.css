@@ -129,3 +129,18 @@ td {
   /*border: 1px solid #333;*/
   padding: 75px;
 }
+
+
+"
+@media (max-width: 900px) {
+    #graphe {
+        width : 95%;
+        text-align: center;
+    }
+}
+@media (in-width: 900px) {
+    #graphe {
+        width : 75%;
+        text-align: center;
+    }
+}
