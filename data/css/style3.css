@@ -223,3 +223,7 @@ input,
 label {
   margin: 0.4rem 0;
 }
+
+#piece-select {
+    font-size: 1em;
+}
