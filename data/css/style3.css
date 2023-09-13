@@ -139,7 +139,7 @@ align-content: center;
   bottom: 0;
   background-color: var(--background);
   transition: .5s;
-  border-radius: 50px;
+  border-radius: 40px;
 }
 
 .slider:before {
