@@ -5,6 +5,7 @@
  	<link href='https://fonts.googleapis.com/css?family=Teko' rel='stylesheet'>
  	<link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
  	<link href="css/style3.css" rel="stylesheet" type="text/css">
+ 	<script type="text/javascript" src="main.js"></script>
 </head>
 
 <body>
@@ -49,6 +50,48 @@
 			il faudra penser a corriger les fautes d'orthographes<br>
 			<br>
 		</p>
+
+		
+		<div style="height:100px"></div>
+
+
+ 		<a onclick="openAdd()"><u>Ajouter un objet connecté</u></a>
+
+
+	    <div class="contain-popup">
+	      <div class="form-popup" id="popupAdd">
+			<div style="height:25px"></div> 
+	          <h4>Ajouter un objet connecté</h4>
+	          	<br>
+	          	<label for="piece-select">Choisissez une piece : </label>
+	          	<br>
+				<select name="pieces" id="piece-select">
+					<option value="">--Veuillez séletionner une piece--</option>
+					<option value="1">Salle a manger</option>
+					<option value="2">Cuisine</option>
+					<option value="3">Chambre</option>
+					<option value="4">Bureau</option>
+					<option value="5">Salle de bain</option>
+					<option value="6">Jardin</option>
+				</select>
+	          	<br>
+	          	<br>
+
+	          	<label for="name">Nom de l'objet : </label>
+	          	<br>
+				<input size="10" />
+	          	<br>
+	          	<br>
+	          	<label for="name">Descritpion : </label>
+	          	<br>
+				<input size="30" />
+
+				<div style="height:25px"></div> 
+	          <button  class="btn_cancel" onclick="closeAdd()">Fermer</button> &emsp; <button  class="btn_cancel" onclick="closeAdd()">Valider</button>
+	          <div style="height:15px"></div>
+	      </div>
+	    </div>
+
 
 		<div style="height:25px"></div>
 	</div>
