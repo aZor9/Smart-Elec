@@ -228,7 +228,7 @@ label {
 
 
 
-@media (min-width: 900px) {
+@media (min-width: 1100px) {
     #piece-select {
         font-size: 1.2em;
     }
@@ -237,7 +237,7 @@ label {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     #piece-select {
         font-size: 1.5em;
     }
