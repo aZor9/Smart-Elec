@@ -114,7 +114,7 @@ align-content: center;
 
 /* The switch - the box around the slider */
 .switch {
-  font-size: 17px;
+  font-size: 50px;
   position: relative;
   display: inline-block;
   width: 3.5em;
@@ -130,7 +130,7 @@ align-content: center;
 
 /* The slider */
 .slider {
-  --background: #28096b;
+  --background: #1E0356;
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -139,7 +139,7 @@ align-content: center;
   bottom: 0;
   background-color: var(--background);
   transition: .5s;
-  border-radius: 30px;
+  border-radius: 50px;
 }
 
 .slider:before {
@@ -150,16 +150,16 @@ align-content: center;
   border-radius: 50%;
   left: 10%;
   bottom: 15%;
-  box-shadow: inset 8px -4px 0px 0px #fff000;
+  box-shadow: inset 20px -4px 0px 0px #F2ED8A;
   background: var(--background);
   transition: .5s;
 }
 
 input:checked + .slider {
-  background-color: #522ba7;
+  background-color: #3C40B5;
 }
 
 input:checked + .slider:before {
   transform: translateX(100%);
-  box-shadow: inset 15px -4px 0px 15px #fff000;
+  box-shadow: inset 100px -4px 0px 15px #fff000;
 }
