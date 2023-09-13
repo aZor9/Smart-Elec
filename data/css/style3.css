@@ -175,6 +175,7 @@ input:checked + .slider:before {
       position: relative;
       text-align: center;
       width: 80%;
+      font-size: 30px;
 }
 
 /* Masquez la Popup */
@@ -193,7 +194,6 @@ input:checked + .slider:before {
 
 .btn_cancel {
   color: #FAFAFA;
-  text-transform: uppercase;
   padding: 10px 20px;
   border-radius: 10px;
   border: 2px solid #FAFAFA;
