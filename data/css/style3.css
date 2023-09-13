@@ -226,14 +226,7 @@ label {
 
 
 
-@media (max-width: 900px) {
-    #piece-select {
-        font-size: 1.5em;
-    }
-    #piece-select1 {
-        font-size: 1em;
-    }
-}
+
 
 @media (min-width: 900px) {
     #piece-select {
@@ -241,5 +234,14 @@ label {
     }
     #piece-select1 {
         font-size: 0.8em;
+    }
+}
+
+@media (max-width: 900px) {
+    #piece-select {
+        font-size: 1.5em;
+    }
+    #piece-select1 {
+        font-size: 1em;
     }
 }
