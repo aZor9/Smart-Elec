@@ -5,6 +5,7 @@
  	<link href='https://fonts.googleapis.com/css?family=Teko' rel='stylesheet'>
  	<link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
  	<link href="css/style3.css" rel="stylesheet" type="text/css">
+ 	<script type="text/javascript" src="main.js"></script>
 </head>
 
 <body>
@@ -36,15 +37,7 @@
 
 		<div style="height:50px"></div>
 
-		<p><!--
-			<br>
-			prix de l'electrecité : x €/kW/h
-			consomation : y kW/h<br>
-			prix total : z €<br> 
-			---<br>
-			il faudra penser a corriger les fautes d'orthographes<br>
-			<br>
-		-->
+		<p>
 			Page en cours de création
 		</p>
 
@@ -55,9 +48,31 @@
 		    <input type="checkbox">
     		<span class="slider"></span>
 		</label>
+		
+	    <br>
+		<a onclick="openMin()"><u>Programmer la minuterie</u></a>
+		
+
+		<div class="contain-popup">
+	      <div class="form-popup" id="popupMin">
+			<div style="height:25px"></div> 
+	          <h4>Minuterie</h4>
+	          	<br>
+	          	<label id="piece-select" for="name">Heure de début : </label>
+	          	<br>
+				<input id="piece-select1" size="10" />
+	          	<br>
+	          	<label id="piece-select" for="name">Heure de fin : </label>
+	          	<br>
+				<input id="piece-select1" size="10" />
+				<div style="height:25px"></div> 
+	          <button id="piece-select" class="btn_cancel" onclick="closeMin()">Fermer</button> &emsp; <button id="piece-select" class="btn_cancel" onclick="closeMin()">Valider</button>
+	          <div style="height:15px"></div>
+	      </div>
+	    </div>
 
 
 	</div>
 
-	<div style="height:600px"></div>
+	<div style="height:1000px"></div>
 </body>
